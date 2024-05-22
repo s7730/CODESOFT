@@ -1,0 +1,8 @@
+The code begins by loading necessary libraries and exploring the data files available in the input directory. It reads the training dataset and provides an overview of the data structure, including summary statistics and missing value counts. The code then visualizes the distributions of several categorical features and examines transaction times and fraud class distribution through plots.
+
+The dataset undergoes feature engineering, where new features such as the decimal part of the transaction amount, cardholder age, and amount to city population ratio are created. Irrelevant columns are dropped to streamline the dataset for modeling. Similar preprocessing steps are applied to the test dataset to ensure consistency.
+
+Categorical variables are encoded using LabelEncoder, and the data is split into training and validation sets. A logistic regression model is trained on the training data, and its performance is evaluated on the validation set using accuracy, precision, recall, F1 score, and ROC AUC score. The evaluation metrics are printed, showcasing the model's effectiveness in identifying fraudulent transactions. This task demonstrates practical skills in data preprocessing, feature engineering, model training, and evaluation, essential for a career in data science and machine learning.
+
+ I took the datset from the kaggle which consists of traning and testing data:-
+  https://www.kaggle.com/datasets/kartik2112/fraud-detection
