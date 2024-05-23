@@ -9,7 +9,10 @@ The dataset is collected from:-
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
 
 
-The dataset used in this project includes training and test sets with the following columns:
+
+
+**The dataset used in this project includes training and test sets with the following columns:**
+
 
 Unnamed: 0: Row index.
 
